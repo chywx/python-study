@@ -4,10 +4,10 @@ import time
 
 
 def a():
-    b = webdriver.Chrome()
-    b.get('https://www.baidu.com/')
+    driver = webdriver.Chrome()
+    driver.get('https://www.baidu.com/')
     time.sleep(3)
-    b.quit()
+    driver.quit()
 
 
 if __name__ == '__main__':
